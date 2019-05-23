@@ -3,8 +3,7 @@
 
 
 r"""
-TODO:doc here
-
+bashere open the directories on WSL (Windows Subsystem for Linux).
 """
 
 import os
