@@ -14,7 +14,7 @@ An installer with InnoSetup is yet to come.
 ## Runtime Requirements
 
 - Windows 10, since WSL works on Windows 10.
-- WSL must be [installed](Windows Subsystem for Linux).
+- WSL must be [installed](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 - no Python is required for bashere itself since it is packed to a Windows .exe file with [PyInstaller](https://www.pyinstaller.org/).
 
 
