@@ -6,7 +6,9 @@ bashere opens the Windows directories on WSL (Windows Subsystem for Linux).
 
 # Installation
 
-Simply, extract to a folder of your choice, it is fully portable.
+The latest version can be found in **Releases** section of Githib repository.
+
+Simply, extract it to a folder of your choice, it is fully portable.
 An installer with InnoSetup is yet to come.
 
 
