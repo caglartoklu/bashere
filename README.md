@@ -1,6 +1,6 @@
 # bashere
 
-bashere open the directories on WSL (Windows Subsystem for Linux).
+bashere opens the Windows directories on WSL (Windows Subsystem for Linux).
 
 
 # Installation
