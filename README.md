@@ -2,6 +2,7 @@
 
 bashere opens the Windows directories on WSL (Windows Subsystem for Linux).
 
+![bashere_screencast_01](https://user-images.githubusercontent.com/2071639/58266193-e192da00-7d89-11e9-8090-76d6dd3c1179.gif)
 
 # Installation
 
@@ -29,6 +30,10 @@ An installer with InnoSetup is yet to come.
 # Configuration
 
 None, currently.
+
+Here is a simple "Start Menu configuration" tip for [Total Commander](https://www.ghisler.com/) users:
+
+![bashere_totalcommander](https://user-images.githubusercontent.com/2071639/58266203-e5bef780-7d89-11e9-9dd0-dcbf0cb84013.png)
 
 
 # Usage
