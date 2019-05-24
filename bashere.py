@@ -10,6 +10,18 @@ import os
 import sys
 
 
+def get_windows_dir():
+    r"""
+    Returns Windows directory as a string.
+    for example:
+        C:\Windows
+
+    To see its values, type "SET" in cmd.exe.
+    """
+    windir = os.environ["windir"]
+    return windir
+
+
 def get_bash_path():
     r"""
     Returns the path of bash.exe.
@@ -28,10 +40,11 @@ def get_bash_path():
     If that’s not it, please supply the Debug Info, along with other
     information that might be relevant to help us debug your problem.
     """
-    # TODO: 4 better detection for bash.exe path.
     # process_path = "C:\\Windows\\System32\\bash.exe"
     # process_path = "%WINDIR%\\System32\\bash.exe"
-    process_path = "c:\\windows\\sysnative\\bash.exe"
+    # process_path = "c:\\windows\\sysnative\\bash.exe"
+    windir = get_windows_dir()
+    process_path = os.path.join(windir, "sysnative\\bash.exe")
     return process_path
 
 
